@@ -1,6 +1,6 @@
 {
-  "name": "multiselect",
-  "version": "0.9.12",
+  "name": "multiselect-html",
+  "version": "1.0.0",
   "description": "A user-friendlier drop-in replacement for the standard select with multiple attribute activated.",
   "main": "js/jquery.multi-select.js",
   "directories": {
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lou/multi-select.git"
+    "url": "git+https://github.com/singularity-is/multi-select.git"
   },
   "author": "",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/lou/multi-select/issues"
+    "url": "https://github.com/singularity-is/multi-select/issues"
   },
   "devDependencies": {
     "grunt": "*",
@@ -24,8 +24,10 @@
     "time-grunt": "^1.3.0",
     "grunt-contrib-sass": "*",
     "grunt-contrib-watch": "*",
-    "time-grunt": "^1.3.0",
     "grunt-contrib-connect": "^1.0.2"
   },
-  "homepage": "https://github.com/lou/multi-select#README.markdown"
+  "homepage": "https://github.com/singularity-is/multi-select#README.markdown",
+  "dependencies": {
+    "basic": "^2.0.3"
+  }
 }
