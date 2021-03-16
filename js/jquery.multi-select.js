@@ -192,6 +192,10 @@
           if (option.disabled) {
             $option.prop('disabled', true);
           }
+		  
+		  if (option.html) {
+            $option.attr('data-html', option.html);
+          }
 
           $option.insertAt(index, $container);
           that.generateLisFromOption($option.get(0), index, option.nested);
