@@ -1,6 +1,6 @@
 {
   "name": "multiselect-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A user-friendlier drop-in replacement for the standard select with multiple attribute activated.",
   "main": "js/jquery.multi-select.js",
   "directories": {
